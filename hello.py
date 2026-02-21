@@ -1,8 +1,9 @@
-print('salom')
+# print('salom')
 
 class Workers:
-    def __init__(self,worker):
+    def __init__(self,worker,age=25):
         self.worker=worker
+        self.age=age
 
     def age_worker(self):
         return self.age
@@ -16,3 +17,4 @@ work="Ali"
 
 tracker=Workers(work)
 print(tracker.name_worker())
+print(tracker.age_worker())
